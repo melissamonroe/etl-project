@@ -1,12 +1,12 @@
 # ETL-Project
 ## UCSD Data Bootcamp ETL Group Project
-Ben Gade<br>
+Ben Galde<br>
 Melissa Monroe<br>
 Tanlin Hung<br>
 Kevin Mickey
 
 
-##Intent
+## Intent
 This group project will use [https://sandiego.craigslist.org/search/apa?housing_type=1] (https://sandiego.craigslist.org/search/apa?housing_type=1) to scrape apartment listings for San Diego to determine:
 
 The average rental price by location (TBD whether zip code or descriptors like "UTC" or "North Park")
@@ -36,6 +36,13 @@ Things we will also try to determine from the listing:
 - Amenities
 - - Washer/Dryer in unit?
 
-##Analysis
+## Data Sources
+### Scraping Craigslist appartment and house rental pages
+The pages for the San Diego appartment and house rental from [HERE](https://sandiego.craigslist.org/d/apartments-housing-for-rent/search/apa)
+### Zip code data
+The primary zip code data is from [here](http://federalgovernmentzipcodes.us/) and renamed the file to [zipc_codes.csv](./resources/data/zipcodes.csv). 
+
+
+## Analysis
 - Amenities
 - Determine average rental price by location
