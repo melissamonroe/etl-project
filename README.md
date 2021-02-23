@@ -40,7 +40,7 @@ Things we will also try to determine from the listing:
 ### Scraping Craigslist appartment and house rental pages
 The pages for the San Diego appartment and house rental from [HERE](https://sandiego.craigslist.org/d/apartments-housing-for-rent/search/apa)
 ### Zip code data
-The primary zip code data is from [here](http://federalgovernmentzipcodes.us/) and renamed the file to [zipc_codes.csv](./resources/data/zipcodes.csv). 
+The primary zip code data is from [HERE](http://federalgovernmentzipcodes.us/) and renamed the file to [zipc_codes.csv](./resources/data/zipcodes.csv). 
 
 
 ## Analysis
