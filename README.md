@@ -41,6 +41,26 @@ Things we will also try to determine from the listing:
 The pages for the San Diego appartment and house rental from [HERE](https://sandiego.craigslist.org/d/apartments-housing-for-rent/search/apa)
 ### Zip code data
 The primary zip code data is from [HERE](http://federalgovernmentzipcodes.us/) and renamed the file to [zipc_codes.csv](./resources/data/zipcodes.csv). 
+The data was loaded into the database as the following objects.
+```json
+[
+	{
+		"_id" : ObjectId("5995a09d60e205ec1b1000b8"),
+		"Zipcode" : 76934,
+		"ZipCodeType" : "STANDARD",
+		"City" : "CARLSBAD",
+		"State" : "TX",
+		"LocationType" : "PRIMARY",
+		"Lat" : 31.59,
+		"Long" : -100.63,
+		"Location" : "NA-US-TX-CARLSBAD",
+		"Decommisioned" : "false",
+		"TaxReturnsFiled" : 445,
+		"EstimatedPopulation" : 818,
+		"TotalWages" : 12675963
+	}
+]
+```
 
 
 ## Analysis
