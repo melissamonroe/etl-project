@@ -66,3 +66,6 @@ The data was loaded into the database as the following objects.
 ## Analysis
 - Amenities
 - Determine average rental price by location
+
+
+![File Name](resources/images/fig1_example.png)
