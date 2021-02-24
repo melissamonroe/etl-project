@@ -11,7 +11,7 @@ Search sandiego.craigslist.org for apartment listings.  Craigslist San Diego all
 
 #Process
 
-We used MongoDB and Python.  We chose Mongo because we were unsure how structured CL postings were.  It turns out SQL would have worked, because when you create a CL ad, many of the fields are constrained by pop-ups.  
+We used MongoDB and Python.  We chose Mongo because we were unsure how structured CL postings were, however, it turns out SQL would have worked, because when you create a CL ad, many of the fields are constrained by pop-ups.  
 ![CL Posting](resources/images/cl_create_posting.png)
 
 `cl_parsery.py` is used to set up the database and holds all the functions used to scrape the site, clean up the data, and insert results into the database.
@@ -24,7 +24,7 @@ Listings were not added to the database if they did not include all of the follo
 - Listing Creation datetime
 - Data ID (the number at the end of the Listing URL)
 
-This resulted in 5 to 6,000 valid listings, depending when we pulled them.  Pulling down the complete set took about 90 minutes.
+When run this morning (2/24) it took 73 minutes and we went from 7608 to 8635 valid records.
 
 If a listing had all of the above items, we then extracted the detail items:
 
