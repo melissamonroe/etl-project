@@ -72,7 +72,26 @@ At the time of writing this report, the most popular types of apartments were (u
 
 91987 is in Tecate (Far East San Diego County near the border).
 
-###20 Highest Average Listing Price
+###20 Highest Zip Codes Average Listing Price
 
 ![AVG Rental by Zip chart](resources/images/fig01_top20averageprice.png)
 
+###20 Lowest Zip Codes Average Listing Price
+
+![AVG Rental by Zip chart](resources/images/fig02_bottom20averageprice.png)
+
+###Top 10 Zip Code Listing count
+
+![AVG Rental by Zip chart](resources/images/plot_most_listing_by_zip.png)
+
+
+- Escondido
+- UTC
+- 3x3 block area of downtown between A and C streets and Front and Third, (SD city offices, Golden Hall etc)
+- PO Box zip code in Vista
+- PO Box zip code in San Marcos
+- San Marcos
+- West Chula Vista
+- PO Box zip code in Chula Vista
+- East Carlsbad/Oceanside
+- PO Box zip code in La Mesa
