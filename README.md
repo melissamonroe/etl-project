@@ -76,15 +76,16 @@ We cleaned up the data before inserting it in Mongo - removing the $ and thousan
 
 ## Running the ETL
 There are several ways to run the ETL for Craigslist.
+
 1.	To have an interactive experience it can be run from a [Jupyter Notebook](./src/cl_rental_scrape.ipynb)
 2. Run from a .bat or .sh file for automation on both windows and *nix 
 environments [craigslist_etl.bat](./resources/scripts/craigslist_etl.bat) and [craigslist_etl.sh](./resources/scripts/craigslist_etl.sh)
 
 ## Data Sources
 ### Scraping Craigslist appartment and house rental pages
-The pages for the San Diego appartment and house rental from [sandiego.craisglist.org/search/apa](https://sandiego.craigslist.org/search/apa)
+The pages for the San Diego apartment rentals are located here: [sandiego.craisglist.org/search/apa](https://sandiego.craigslist.org/search/apa)
 ### Zip code data
-The primary zip code data is from [federalgovernmentzipcodes.us/](http://federalgovernmentzipcodes.us/).**** We renamed the file to [zipc_codes.csv](./resources/data/zipcodes.csv). 
+The primary zip code data is from [federalgovernmentzipcodes.us/](http://federalgovernmentzipcodes.us/). We renamed the file to [zipc_codes.csv](./resources/data/zipcodes.csv). 
 The data was loaded into the database as the following objects. This data is not used directly in the project as of yet and may be replaced in the future.
 
 ```json
@@ -133,13 +134,13 @@ At the time of writing this report, the most popular types of apartments were (u
 
 ![AVG Rental by Zip](resources/images/Average_rentalprice_all _zip.png)
 
-92091 is Rancho Santa Fe, and at that price and location is more than likely to be a house miscategorized as an apartment.
+**92091** is Rancho Santa Fe, and at that price and location is more than likely to be a house miscategorized as an apartment.
 
-92155 is Coronado.
+**92155** is Coronado.
 
-67340 is in rural southern Kansas, presumably a typo.
+**67340** is in rural southern Kansas, presumably a typo.
 
-91987 is in Tecate (Far East San Diego County near the border).
+**91987** is in Tecate (Far East San Diego County near the border).
 
 ###20 Highest Zip Codes Average Listing Price
 
@@ -165,3 +166,9 @@ In order from left to right:
 - PO Box zip code in Chula Vista
 - East Carlsbad/Oceanside
 - PO Box zip code in La Mesa
+
+# Leveraging our Results
+
+In the future we expect to be able to integrate the results into a webpage that is automatically updated once a day.  Below is a screenshot of the placeholder. The live site can be found at [github.io] (https://bgalde-dev.github.io/etl-project/index.html)
+
+![Barebones website](resources/images/Craigslist_Apartments_for_Rent_Dashboard.png)
