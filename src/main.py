@@ -20,6 +20,7 @@ urls.append(config.url_lisings_southsd)
 
 # Scrape the pages and put data in to database
 my_parser.scrape_cl(urls)
+my_parser.update_details()
 
 # Call for visualization and analysis
 # @TODO Add logic to run visualization and analysis
