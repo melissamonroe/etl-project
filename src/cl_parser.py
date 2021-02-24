@@ -100,20 +100,16 @@ class Parser:
 
     def insert_listing_details(self, cl_result_details,data_id):   
         # Examine the results, then determine element that contains sought info
-        # results are returned as an iterable list
-        # result_details = cl_result_details.find_all('div', class_='mapAndAttrs')
-        
-        viewposting = cl_result_details.find_all('div', class_='viewposting')
-        listing_latitude = viewposting[0]['data-latitude']
-        listing_longitude = viewposting[0]['data-longitude']
-        
-        # mapaddress = cl_result_details.find_all('div', class_='mapaddress')
-        # listing_address = mapaddress[0].text
+        # results are returned as an iterable list        
         
         attrgroups = cl_result_details.find_all('p', class_='attrgroup')
         
         listing_availability = ''
         listing_sqft = ''
+        listing_attributes = []
+        listing_bedbath = ''
+        listing_sqft = ''
+        listing_availability = ''
 
         for attrgroup in attrgroups:
             listing_attributes = []
@@ -140,7 +136,10 @@ class Parser:
         listing_addrregion = ''
         listing_addrzip = ''
         listing_addrstreet = ''
-            
+
+        listing_latitude = ''
+        listing_longitude = ''            
+
         soup_scripts = cl_result_details.find_all('script',id='ld_posting_data')
 
         # Getting dictionary
@@ -159,7 +158,10 @@ class Parser:
             listing_petsallowed = str(scripts_dict['petsAllowed'])
         if 'smokingAllowed' in scripts_dict:
             listing_smokingallowed = str(scripts_dict['smokingAllowed'])
-        
+        if 'latitude' in scripts_dict:
+            listing_latitude = str(scripts_dict['latitude'])
+        if 'longitude' in scripts_dict:
+            listing_longitude = str(scripts_dict['longitude'])
 
         if 'address' in scripts_dict:
             address_dict = scripts_dict['address']
@@ -255,3 +257,4 @@ class Parser:
                 except:
                     print("Scraping Complete")
                     break
+
