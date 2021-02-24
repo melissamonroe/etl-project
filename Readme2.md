@@ -84,6 +84,7 @@ At the time of writing this report, the most popular types of apartments were (u
 
 ![AVG Rental by Zip chart](resources/images/plot_most_listing_by_zip.png)
 
+In order from left to right:
 
 - Escondido
 - UTC
@@ -95,3 +96,5 @@ At the time of writing this report, the most popular types of apartments were (u
 - PO Box zip code in Chula Vista
 - East Carlsbad/Oceanside
 - PO Box zip code in La Mesa
+
+
