@@ -1,6 +1,9 @@
 # MAIN SCRIPT TO RUN THE ETL FOR THE CRAIGSLIST PROPERTY RENTALS
 import config
 import cl_parser
+import datetime as dt
+
+start_time = dt.datetime.now()
 
 print('#' * 40)
 print('Running Craigslist Rental ETL')
@@ -19,3 +22,7 @@ urls.append(config.url_lisings_southsd)
 # Scrape the pages, clean, and load data in to database
 my_parser.scrape_cl(urls)
 my_parser.update_details()
+
+end_time = dt.datetime.now()
+total_execute_time = (end_time-start_time).total_seconds()
+print(f'Total time to execute: {total_execute_time} seconds')

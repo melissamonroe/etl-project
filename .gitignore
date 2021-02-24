@@ -134,3 +134,4 @@ dmypy.json
 .pyre/
 .vscode/settings.json
 src/log.txt
+resources/scripts/log.txt

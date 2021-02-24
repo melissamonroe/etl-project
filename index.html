@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Weather Dashboard - Got Weather?</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Template Melissa CSS File -->
+  <link href="assets/css/mystyle.css" rel="stylesheet">
+
+
+  <!-- =======================================================
+  * Template Name: OnePage - v2.2.2
+  * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">Craigslist Dashboard</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>                    
+          <li class="drop-down"><a href="visualizations.html">Visualizations</a>
+            <ul>
+              <li><a href="#"></a></li>
+            </ul>
+          </li>
+          
+          <li><a href="data.html">Data</a></li>
+
+          
+
+        </ul>
+      </nav><!-- .nav-menu -->      
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-9 text-center">
+          <h1>What's for rent?</h1>
+          <h2>Craigslist Rental Listings Web Scrape</h2>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#about" class="btn-get-started scrollto">Project Summary</a>
+      </div>
+
+      <div class="row icon-boxes viz">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">
+            <h4 class="title"><a href="">Most Expensive</a></h4>
+            <a href="#"><img src="resources/images/fig01_top20averageprice.png" alt="Expensive Average Price Listings" /></a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">            
+            <h4 class="title">Least Expensive<a href=""></a></h4>
+            <a href=""><img src="resources/images/fig02_bottom20averageprice.png" alt="" /></a>
+          </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">            
+            <h4 class="title">Most Listings by Zip Code<a href=""></a></h4>
+            <a href=""><img src="resources/images/plot_most_listing_by_zip.png" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+          <div class="icon-box">            
+            <h4 class="title">Average Listing Price All Zip Codes<a href=""></a></h4>
+            <a href=""><img src="resources/images/fig05_listinghistallzips.png" alt="" /></a>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Project Summary: What's for rent in San Diego and beyond?</h2>
+          <p>Whether financial, political, or social -- data's true power lies in its ability to answer questions definitively. Python requests, APIs, and JSON traversals were used to answer the question: "What's for rent in San Diego and surrounding areas? "</p>
+        </div>
+
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Python scripts, matplotlib, pandas and mongoDB were used in this project to visualize the the rental listings on <a href="https://sandiego.craigslist.org/d/apartments-housing-for-rent/search/apa" target="_blank">https://sandiego.craigslist.org/</a>  housing listings.               
+            </p>                        
+            <p>A series of plots were created to summarize the listings: </p> 
+            <ul>
+              <li><i class="ri-check-double-line"></i>Most expensive zip codes</li>
+              <li><i class="ri-check-double-line"></i>Least expensive zip codes</li>
+              <li><i class="ri-check-double-line"></i>Most expensive listing by zip code and category</li>
+              <li><i class="ri-check-double-line"></i>Least expensive listings by zip code and category</li>
+              <li><i class="ri-check-double-line"></i>Average price per square foot by zip code</li>
+              <li><i class="ri-check-double-line"></i>Price distribution across all zip codes</li>
+              <li><i class="ri-check-double-line"></i>Price distribution of Escondido 92033</li>
+              <li><i class="ri-check-double-line"></i>Most listings by category</li>                            
+            </ul>
+            <br/>
+            <a href="visualizations.html#Fig01" class="btn-learn-more">Learn More</a>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3>
+              Observations
+            </h3>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Rancho Santa Fe has the most expensive listing $30,000 and most expensive average listing price </li>
+              <li><i class="ri-check-double-line"></i> Escondido has the most expensive and least expensive listings (different area codes 92029 expensive, 92030 not expensive)</li>                            
+              <li><i class="ri-check-double-line"></i> Escondido (92033) has the most rental listings posted based on the listings we scrapped since the project inception (2/20/2021)</li>              
+            </ul>
+            
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts section-bg" style="display: none;">
+      <div class="container">
+
+        <div class="row justify-content-end">
+
+          <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <span data-toggle="counter-up">65</span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <span data-toggle="counter-up">85</span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <span data-toggle="counter-up">12</span>
+              <p>Years of experience</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <span data-toggle="counter-up">15</span>
+              <p>Awards</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= About Video Section ======= -->
+    <section id="about-video" class="about-video counts section-bg" style="display:contents;">
+      <div class="container">
+
+        <div class="row" style="padding: 50px 0;">
+
+          <div class="col-lg-6 video-box align-self-baseline" data-aos-delay="100">
+            <h3>Rancho Santa Fe 92091</h3>
+            <p class="font-italic">
+              Rancho Santa Fe was by far the most expensive listing and average listing we scraped. 
+            </p>
+            <ul>
+              <li><i class="bx bx-check-double"></i> Avg Listing Price: $21,200</li>
+              <li><i class="bx bx-check-double"></i> Number of listings 3</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos-delay="100">
+
+            <p>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53526.14484989092!2d-117.2374080803763!3d33.02001096006422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf5ff9f7eeda1%3A0x28dc4ac429ad965c!2sRCHO%20SANTA%20FE%2C%20CA%2092091!5e0!3m2!1sen!2sus!4v1614200385081!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+          
+
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Video Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="text-center">
+          <h3>Explore Visualizations</h3>
+          <p> Python scripts and matplotlib were used in this project to visualize rental listings prices, categories and square footage of listings in San Diego and surrounding areas.</p>
+          <a class="cta-btn" href="visualizations.html">Show me the Rental Listings</a>
+        </div>
+      </div>
+    </section><!-- End Cta Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Craigslist Dashboard</h3>
+            <p>              
+              <strong>GitHub:</strong> <a href="https://github.com/bgalde-dev/etl-project">GitHub Craigslist Scrape</a><br>
+              <strong>Project Team Members</strong> <br>
+              Ben Galde<br>
+              Kevin Mickey<br>
+              Tan-Lin (Sally) Hung<br>
+              Melissa Monroe
+              
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="visualizations.html">Visualizations</a></li>              
+              <li><i class="bx bx-chevron-right"></i> <a href="data.html">Data</a></li>              
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">        
+        
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0" style="display: none;">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
