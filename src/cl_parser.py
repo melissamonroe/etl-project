@@ -23,8 +23,10 @@ class Parser:
         conn = config.mongo_conn
         client = pymongo.MongoClient(conn)
 
+        # @TODO Make sure database is connected
+
         # Define database and collection
-        db = client.craigslist_db
+        db = client[config.db_name]
         self.listings_collection = db.listings
 
     def get_listing_details(self,listing_url):
@@ -49,15 +51,15 @@ class Parser:
         modified_datetime = datetime.datetime.utcnow()
             
         # Print results
-        #if config.debug:
-        print('-' * 40)
-        print('Inserting new listing')
-        print(data_id)
-        print(listing_title)
-        print(listing_price)
-        print(listing_url)
-        print(listing_datetime)        
-        print(created_datetime)
+        if config.debug:
+            print('-' * 40)
+            print('Inserting new listing')
+            print(data_id)
+            print(listing_title)
+            print(listing_price)
+            print(listing_url)
+            print(listing_datetime)        
+            print(created_datetime)
 
         # Dictionary to be inserted as a MongoDB document
         post = {
@@ -219,3 +221,37 @@ class Parser:
 
         if config.debug:
             print(doc)
+ 
+    def scrape_cl(self, urls):
+        # Create browser
+        executable_path = {'executable_path': ChromeDriverManager().install()}
+        browser = Browser('chrome', **executable_path, headless=False)
+
+        # Scrape data for every url
+        for url in urls:
+            browser.visit(url)
+
+            # Iterate through all pages
+            for x in range(config.url_page_range):
+                # HTML object
+                html_listings = browser.html
+                # Parse HTML with Beautiful Soup
+                soup_listings = BeautifulSoup(html_listings, 'html.parser')
+                # Retrieve all elements that contain book information
+                soup_listings = BeautifulSoup(html_listings)
+                # Return all the list items of the result_row class
+                results = soup_listings.find_all('li', class_='result-row')
+
+                # Loop through returned results
+                if config.debug:
+                    print(f'Scraping page {x}')
+                for result in results:
+                    try:
+                        self.insert_listing(result)                                                                  
+                    except Exception as e:
+                        print(e)        
+                try:
+                    browser.links.find_by_partial_text('next').click()          
+                except:
+                    print("Scraping Complete")
+                    break

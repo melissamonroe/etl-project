@@ -36,6 +36,12 @@ Things we will also try to determine from the listing:
 - Amenities
 - - Washer/Dryer in unit?
 
+## Running the ETL
+There are several ways to run the ETL for Craogslist.
+1.	To have an interactive experience it can be run from a [Jupyter Notebook](./src/rental_scrape.ipynb)
+2. Run from a .bat or .sh file for automation on both windows and *nix 
+environments [craigslist_etl.bat](../src/craigslist_etl.bat) and [craigslist_etl.sh](../src/craigslist_etl.sh)
+
 ## Data Sources
 ### Scraping Craigslist appartment and house rental pages
 The pages for the San Diego appartment and house rental from [HERE](https://sandiego.craigslist.org/d/apartments-housing-for-rent/search/apa)
