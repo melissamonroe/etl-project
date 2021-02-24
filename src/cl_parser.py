@@ -290,3 +290,4 @@ class Parser:
             if x <= 0:            
                 print('Scrape Completed')
                 break
+
