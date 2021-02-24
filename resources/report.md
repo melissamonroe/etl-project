@@ -1,7 +1,6 @@
-# This is a big header
+# Final Report
 
-## This is a less big header
-![File Name](images/fig1_example.png)
+## 20 Highest Average Price grouped by Location (Zip)
 
-- list item
-- readme
+![File Name](images/fig01_top20averageprice.png)
+

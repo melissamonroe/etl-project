@@ -99,7 +99,6 @@ class Parser:
                 print(doc)
 
     def insert_listing_details(self, cl_result_details,data_id):   
-<<<<<<< HEAD
         # Examine the results, then determine element that contains sought info
         # results are returned as an iterable list        
         
@@ -113,10 +112,6 @@ class Parser:
         listing_availability = ''
 
         for attrgroup in attrgroups:
-=======
-            # Initialize fields. @TODO May want to create a class to hold all the info
-            listing_sqft = ''
->>>>>>> f60b8cdeaf5d742af8122fde9159cc0fbaf8d3d3
             listing_attributes = []
             listing_bedbath = ''
             listing_sqft = ''
@@ -135,19 +130,7 @@ class Parser:
             listing_latitude = ''
             listing_longitude = ''    
 
-<<<<<<< HEAD
-        listing_addrcountry = ''
-        listing_addrlocality = ''
-        listing_addrregion = ''
-        listing_addrregion = ''
-        listing_addrzip = ''
-        listing_addrstreet = ''
-
-        listing_latitude = ''
-        listing_longitude = ''            
-
-        soup_scripts = cl_result_details.find_all('script',id='ld_posting_data')
-=======
+            soup_scripts = cl_result_details.find_all('script',id='ld_posting_data')
             # Examine the results, then determine element that contains sought info
             # results are returned as an iterable list                   
             attrgroups = cl_result_details.find_all('p', class_='attrgroup')
@@ -165,10 +148,8 @@ class Parser:
                         listing_availability = span.text
                     else: 
                         listing_attributes.append(span.text)
->>>>>>> f60b8cdeaf5d742af8122fde9159cc0fbaf8d3d3
 
 
-<<<<<<< HEAD
         # Pretty Printing JSON string back
         # print(json.dumps(scripts_dict, indent = 4, sort_keys=True))
             
@@ -186,11 +167,9 @@ class Parser:
             listing_latitude = str(scripts_dict['latitude'])
         if 'longitude' in scripts_dict:
             listing_longitude = str(scripts_dict['longitude'])
-=======
             soup_scripts = cl_result_details.find_all('script',id='ld_posting_data')
             # Getting dictionary
             scripts_dict = json.loads(soup_scripts[0].contents[0].strip())
->>>>>>> f60b8cdeaf5d742af8122fde9159cc0fbaf8d3d3
 
             # Pretty Printing JSON string back
             if config.debug:
@@ -309,8 +288,6 @@ class Parser:
                     print("Scraping Complete")
                     break
 
-<<<<<<< HEAD
-=======
     def update_details(self):
         # Create browser
         executable_path = {'executable_path': ChromeDriverManager().install()}
@@ -342,4 +319,3 @@ class Parser:
             if x <= 0:            
                 print('Scrape Completed')
                 break
->>>>>>> f60b8cdeaf5d742af8122fde9159cc0fbaf8d3d3
