@@ -7,7 +7,7 @@ Kevin Mickey
 
 
 ## Intent
-This group project will use [Craigslist] (https://sandiego.craigslist.org/search/apa?housing_type=1) to scrape apartment listings for San Diego to determine:
+This group project will use [Craigslist](https://sandiego.craigslist.org/search/apa?housing_type=1) to scrape apartment listings for San Diego to determine:
 
 The average rental price by location (TBD whether zip code or descriptors like "UTC" or "North Park")
 
