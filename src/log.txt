@@ -1,0 +1,909 @@
+########################################
+Running Craigslist appartment ETL
+########################################
+
+
+Insert new listing! 
+Listing 7280866732 already exists, update existing listing!
+Insert new listing! 
+Listing 7268773757 already exists, update existing listing!
+Listing 7273318466 already exists, update existing listing!
+Listing 7272825348 already exists, update existing listing!
+Listing 7278999976 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Listing 7280867100 already exists, update existing listing!
+Listing 7280907338 already exists, update existing listing!
+Listing 7273225956 already exists, update existing listing!
+Listing 7279636256 already exists, update existing listing!
+Listing 7271309368 already exists, update existing listing!
+Listing 7280282606 already exists, update existing listing!
+Listing 7276224175 already exists, update existing listing!
+Listing 7277182673 already exists, update existing listing!
+Listing 7278999736 already exists, update existing listing!
+Listing 7272173524 already exists, update existing listing!
+Listing 7272634054 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Listing 7277535943 already exists, update existing listing!
+Insert new listing! 
+Listing 7280834593 already exists, update existing listing!
+Insert new listing! 
+Listing 7276988695 already exists, update existing listing!
+Listing 7278996361 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7275208521 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Listing 7280876895 already exists, update existing listing!
+Listing 7279911351 already exists, update existing listing!
+Insert new listing! 
+Listing 7277226595 already exists, update existing listing!
+Listing 7277222346 already exists, update existing listing!
+Listing 7273267730 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7274173965 already exists, update existing listing!
+Listing 7276273129 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Listing 7279916127 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7278010724 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7277525809 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7280861912 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7279983417 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7280243218 already exists, update existing listing!
+Listing 7279949936 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7277173386 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7276174221 already exists, update existing listing!
+Listing 7275112615 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7281927433 already exists, update existing listing!
+Listing 7281922726 already exists, update existing listing!
+Listing 7281929371 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7271558744 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7279812860 already exists, update existing listing!
+Insert new listing! 
+Listing 7280861747 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7280245765 already exists, update existing listing!
+Insert new listing! 
+Listing 7267643147 already exists, update existing listing!
+Listing 7277204080 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7278434138 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7278935513 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7279920082 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7280835641 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7280844507 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7280870613 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Listing 7280159303 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7279431543 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7276592354 already exists, update existing listing!
+Listing 7271150259 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7277990656 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+'NoneType' object has no attribute 'text'
+'NoneType' object has no attribute 'text'
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7278510361 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+'NoneType' object has no attribute 'text'
+Insert new listing! 
+Insert new listing! 
+Listing 7277785227 already exists, update existing listing!
+Insert new listing! 
+Listing 7280696144 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Listing 7279969193 already exists, update existing listing!
+Listing 7272669024 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7279460136 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7267717137 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7276594852 already exists, update existing listing!
+Listing 7279954584 already exists, update existing listing!
+Insert new listing! 
+Listing 7276211994 already exists, update existing listing!
+Listing 7276213977 already exists, update existing listing!
+Listing 7276207922 already exists, update existing listing!
+Listing 7276205130 already exists, update existing listing!
+Listing 7276201091 already exists, update existing listing!
+Listing 7276192910 already exists, update existing listing!
+Listing 7276209472 already exists, update existing listing!
+Listing 7276191641 already exists, update existing listing!
+Listing 7276190130 already exists, update existing listing!
+Insert new listing! 
+'NoneType' object has no attribute 'text'
+Insert new listing! 
+Insert new listing! 
+Listing 7279440346 already exists, update existing listing!
+Listing 7279795201 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7279227705 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7277030020 already exists, update existing listing!
+'NoneType' object has no attribute 'text'
+Listing 7278792926 already exists, update existing listing!
+Listing 7278793422 already exists, update existing listing!
+Listing 7278793581 already exists, update existing listing!
+Listing 7278793717 already exists, update existing listing!
+Listing 7278793879 already exists, update existing listing!
+Listing 7278798130 already exists, update existing listing!
+Listing 7279211251 already exists, update existing listing!
+Listing 7279211403 already exists, update existing listing!
+Listing 7279211629 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Insert new listing! 
+Listing 7270318336 already exists, update existing listing!
+Listing 7281866112 already exists, update existing listing!
+Listing 7275158176 already exists, update existing listing!
+Listing 7281838373 already exists, update existing listing!
+Listing 7281863295 already exists, update existing listing!
+Listing 7281865681 already exists, update existing listing!
+Listing 7281863950 already exists, update existing listing!
+Listing 7281862132 already exists, update existing listing!
+Listing 7281861855 already exists, update existing listing!
+Listing 7281856053 already exists, update existing listing!
+Listing 7281848064 already exists, update existing listing!
+Listing 7281846572 already exists, update existing listing!
+Listing 7281844330 already exists, update existing listing!
+Listing 7267802558 already exists, update existing listing!
+Listing 7281842465 already exists, update existing listing!
+Listing 7281836807 already exists, update existing listing!
+Listing 7281832128 already exists, update existing listing!
+Listing 7281833154 already exists, update existing listing!
+Listing 7281831842 already exists, update existing listing!
+Listing 7278951511 already exists, update existing listing!
+Listing 7281824682 already exists, update existing listing!
+Listing 7281824554 already exists, update existing listing!
+Listing 7281801697 already exists, update existing listing!
+Listing 7281823420 already exists, update existing listing!
+Listing 7279004082 already exists, update existing listing!
+Listing 7281767977 already exists, update existing listing!
+Listing 7281813649 already exists, update existing listing!
+Listing 7280312635 already exists, update existing listing!
+Listing 7281794551 already exists, update existing listing!
+Listing 7281791617 already exists, update existing listing!
+Listing 7281790744 already exists, update existing listing!
+Listing 7278992567 already exists, update existing listing!
+Listing 7281789642 already exists, update existing listing!
+Listing 7281787246 already exists, update existing listing!
+Listing 7279347168 already exists, update existing listing!
+Listing 7281774996 already exists, update existing listing!
+Listing 7281779256 already exists, update existing listing!
+Listing 7281778999 already exists, update existing listing!
+Listing 7281778864 already exists, update existing listing!
+Listing 7281778729 already exists, update existing listing!
+Listing 7273157375 already exists, update existing listing!
+Listing 7281754311 already exists, update existing listing!
+Listing 7281768076 already exists, update existing listing!
+Listing 7280327425 already exists, update existing listing!
+Listing 7281765982 already exists, update existing listing!
+Listing 7281741366 already exists, update existing listing!
+Listing 7275007626 already exists, update existing listing!
+Listing 7281758647 already exists, update existing listing!
+Listing 7281749684 already exists, update existing listing!
+Listing 7281720789 already exists, update existing listing!
+Listing 7281751010 already exists, update existing listing!
+Listing 7279241368 already exists, update existing listing!
+Listing 7281750528 already exists, update existing listing!
+Listing 7281750512 already exists, update existing listing!
+Listing 7281748374 already exists, update existing listing!
+Listing 7281722285 already exists, update existing listing!
+Listing 7281743776 already exists, update existing listing!
+Listing 7281723896 already exists, update existing listing!
+Listing 7281734493 already exists, update existing listing!
+Listing 7281723128 already exists, update existing listing!
+Listing 7278486022 already exists, update existing listing!
+Listing 7278636107 already exists, update existing listing!
+Listing 7278636581 already exists, update existing listing!
+Listing 7281733651 already exists, update existing listing!
+Listing 7277734205 already exists, update existing listing!
+Listing 7277842619 already exists, update existing listing!
+Listing 7281729092 already exists, update existing listing!
+Listing 7278505850 already exists, update existing listing!
+Listing 7275528006 already exists, update existing listing!
+Listing 7281729603 already exists, update existing listing!
+Listing 7279587618 already exists, update existing listing!
+Listing 7281723400 already exists, update existing listing!
+Listing 7281722317 already exists, update existing listing!
+Listing 7281721833 already exists, update existing listing!
+Listing 7280685834 already exists, update existing listing!
+Listing 7280296469 already exists, update existing listing!
+'NoneType' object has no attribute 'text'
+Listing 7281720300 already exists, update existing listing!
+Listing 7281719625 already exists, update existing listing!
+Listing 7281715577 already exists, update existing listing!
+Listing 7281719245 already exists, update existing listing!
+Listing 7281713044 already exists, update existing listing!
+Listing 7281715338 already exists, update existing listing!
+Listing 7281713792 already exists, update existing listing!
+Listing 7277256310 already exists, update existing listing!
+Listing 7274998387 already exists, update existing listing!
+Listing 7275993690 already exists, update existing listing!
+Listing 7281704759 already exists, update existing listing!
+Listing 7275772003 already exists, update existing listing!
+Listing 7281698101 already exists, update existing listing!
+Listing 7281701192 already exists, update existing listing!
+Listing 7281701021 already exists, update existing listing!
+Listing 7281695642 already exists, update existing listing!
+Listing 7281690271 already exists, update existing listing!
+Listing 7281692707 already exists, update existing listing!
+Listing 7281666381 already exists, update existing listing!
+Listing 7281684536 already exists, update existing listing!
+Listing 7281689985 already exists, update existing listing!
+Listing 7279339354 already exists, update existing listing!
+Listing 7281688609 already exists, update existing listing!
+Listing 7281688262 already exists, update existing listing!
+Listing 7281688232 already exists, update existing listing!
+Insert new listing! 
+Listing 7281681331 already exists, update existing listing!
+Listing 7279704734 already exists, update existing listing!
+Listing 7281676622 already exists, update existing listing!
+Listing 7281675789 already exists, update existing listing!
+Listing 7276184327 already exists, update existing listing!
+Listing 7276186782 already exists, update existing listing!
+Listing 7276186204 already exists, update existing listing!
+Listing 7281673745 already exists, update existing listing!
+Listing 7276187554 already exists, update existing listing!
+Listing 7281672611 already exists, update existing listing!
+Listing 7281670854 already exists, update existing listing!
+Listing 7279481370 already exists, update existing listing!
+Listing 7281667582 already exists, update existing listing!
+Listing 7281667048 already exists, update existing listing!
+Listing 7281664789 already exists, update existing listing!
+Listing 7278854613 already exists, update existing listing!
+Listing 7279299881 already exists, update existing listing!
+Listing 7281662735 already exists, update existing listing!
+Listing 7281662573 already exists, update existing listing!
+Listing 7281651085 already exists, update existing listing!
+Listing 7281652239 already exists, update existing listing!
+Listing 7281657320 already exists, update existing listing!
+Listing 7281657264 already exists, update existing listing!
+Listing 7281656054 already exists, update existing listing!
+Listing 7276718708 already exists, update existing listing!
+Listing 7281650670 already exists, update existing listing!
+Listing 7281650423 already exists, update existing listing!
+Listing 7281649698 already exists, update existing listing!
+Listing 7281642702 already exists, update existing listing!
+Insert new listing! 
+Listing 7281647202 already exists, update existing listing!
+Listing 7281641059 already exists, update existing listing!
+Listing 7276662386 already exists, update existing listing!
+Listing 7281646093 already exists, update existing listing!
+Listing 7281645447 already exists, update existing listing!
+Listing 7281644772 already exists, update existing listing!
+Listing 7281642227 already exists, update existing listing!
+Listing 7281641694 already exists, update existing listing!
+Listing 7281641422 already exists, update existing listing!
+Listing 7281641355 already exists, update existing listing!
+Listing 7281641304 already exists, update existing listing!
+Insert new listing! 
+Listing 7281640043 already exists, update existing listing!
+Listing 7281639335 already exists, update existing listing!
+Listing 7281638786 already exists, update existing listing!
+Listing 7281638479 already exists, update existing listing!
+Insert new listing! 
+Listing 7281633809 already exists, update existing listing!
+Insert new listing! 
+Listing 7281626371 already exists, update existing listing!
+Listing 7281623903 already exists, update existing listing!
+Listing 7281623036 already exists, update existing listing!
+Listing 7281620514 already exists, update existing listing!
+Listing 7281619617 already exists, update existing listing!
+Listing 7281618679 already exists, update existing listing!
+Listing 7279803357 already exists, update existing listing!
+Insert new listing! 
+Listing 7281602554 already exists, update existing listing!
+Listing 7278701368 already exists, update existing listing!
+Listing 7277326019 already exists, update existing listing!
+Listing 7275740502 already exists, update existing listing!
+Listing 7278636350 already exists, update existing listing!
+Listing 7279804586 already exists, update existing listing!
+
+
+306 documents are in the cursor
+Index 306 Updating listing details data_id 7276972656
+list index out of range
+Index 305 Updating listing details data_id 7280444715
+########################################
+Running Craigslist appartment ETL
+########################################
+
+
+Listing 7281975337 already exists, update existing listing!
+Listing 7280866732 already exists, update existing listing!
+Insert new listing! 
+Listing 7268773757 already exists, update existing listing!
+Listing 7273318466 already exists, update existing listing!
+Listing 7272825348 already exists, update existing listing!
+Listing 7278999976 already exists, update existing listing!
+Listing 7281968233 already exists, update existing listing!
+Listing 7281961074 already exists, update existing listing!
+Listing 7280867100 already exists, update existing listing!
+Listing 7280907338 already exists, update existing listing!
+Listing 7273225956 already exists, update existing listing!
+Listing 7279636256 already exists, update existing listing!
+Listing 7271309368 already exists, update existing listing!
+Listing 7280282606 already exists, update existing listing!
+Listing 7276224175 already exists, update existing listing!
+Listing 7277182673 already exists, update existing listing!
+Listing 7278999736 already exists, update existing listing!
+Listing 7272173524 already exists, update existing listing!
+Listing 7272634054 already exists, update existing listing!
+Listing 7278555357 already exists, update existing listing!
+Listing 7281962012 already exists, update existing listing!
+Listing 7277535943 already exists, update existing listing!
+Listing 7281960450 already exists, update existing listing!
+Listing 7280834593 already exists, update existing listing!
+Listing 7281959582 already exists, update existing listing!
+Listing 7276988695 already exists, update existing listing!
+Insert new listing! 
+Listing 7281936109 already exists, update existing listing!
+Listing 7281933910 already exists, update existing listing!
+Listing 7281934062 already exists, update existing listing!
+Listing 7281954101 already exists, update existing listing!
+Listing 7281921563 already exists, update existing listing!
+Listing 7275208521 already exists, update existing listing!
+Listing 7281934987 already exists, update existing listing!
+Listing 7279013169 already exists, update existing listing!
+Listing 7280876895 already exists, update existing listing!
+Listing 7279911351 already exists, update existing listing!
+Listing 7281932817 already exists, update existing listing!
+Listing 7277226595 already exists, update existing listing!
+Listing 7277222346 already exists, update existing listing!
+Listing 7273267730 already exists, update existing listing!
+Listing 7281945151 already exists, update existing listing!
+Listing 7281943733 already exists, update existing listing!
+Listing 7281935169 already exists, update existing listing!
+Listing 7274173965 already exists, update existing listing!
+Listing 7276273129 already exists, update existing listing!
+Listing 7281945134 already exists, update existing listing!
+Listing 7281936993 already exists, update existing listing!
+Listing 7279916127 already exists, update existing listing!
+Listing 7281943893 already exists, update existing listing!
+Listing 7281913952 already exists, update existing listing!
+Listing 7281899648 already exists, update existing listing!
+Listing 7281930757 already exists, update existing listing!
+Listing 7281943097 already exists, update existing listing!
+Listing 7281943091 already exists, update existing listing!
+Listing 7281938581 already exists, update existing listing!
+Listing 7278010724 already exists, update existing listing!
+Listing 7281942034 already exists, update existing listing!
+Listing 7281907221 already exists, update existing listing!
+Listing 7281938376 already exists, update existing listing!
+Listing 7281931362 already exists, update existing listing!
+Listing 7277525809 already exists, update existing listing!
+Listing 7281914469 already exists, update existing listing!
+Listing 7281938598 already exists, update existing listing!
+Listing 7281940630 already exists, update existing listing!
+Listing 7281936047 already exists, update existing listing!
+Listing 7281936049 already exists, update existing listing!
+Listing 7281938485 already exists, update existing listing!
+Listing 7280861912 already exists, update existing listing!
+Listing 7281938591 already exists, update existing listing!
+Listing 7281939734 already exists, update existing listing!
+Listing 7281937645 already exists, update existing listing!
+Listing 7281906239 already exists, update existing listing!
+Insert new listing! 
+Listing 7281933012 already exists, update existing listing!
+Listing 7281937578 already exists, update existing listing!
+Listing 7281939218 already exists, update existing listing!
+Listing 7281938999 already exists, update existing listing!
+Listing 7281919545 already exists, update existing listing!
+Listing 7281925777 already exists, update existing listing!
+Listing 7281937710 already exists, update existing listing!
+Insert new listing! 
+Listing 7281937533 already exists, update existing listing!
+Insert new listing! 
+Listing 7281937429 already exists, update existing listing!
+Insert new listing! 
+Listing 7281934928 already exists, update existing listing!
+Listing 7281936948 already exists, update existing listing!
+Listing 7281934628 already exists, update existing listing!
+Listing 7281936805 already exists, update existing listing!
+Insert new listing! 
+Insert new listing! 
+Listing 7281932597 already exists, update existing listing!
+Listing 7280243218 already exists, update existing listing!
+Listing 7279949936 already exists, update existing listing!
+Insert new listing! 
+Listing 7281935252 already exists, update existing listing!
+Listing 7281935002 already exists, update existing listing!
+Listing 7281934744 already exists, update existing listing!
+Listing 7281928202 already exists, update existing listing!
+Listing 7281934659 already exists, update existing listing!
+Listing 7281934133 already exists, update existing listing!
+Listing 7281933875 already exists, update existing listing!
+Listing 7277173386 already exists, update existing listing!
+Listing 7281903491 already exists, update existing listing!
+Listing 7279313968 already exists, update existing listing!
+Listing 7281928531 already exists, update existing listing!
+Listing 7281924029 already exists, update existing listing!
+Listing 7281932093 already exists, update existing listing!
+Listing 7276174221 already exists, update existing listing!
+Listing 7275112615 already exists, update existing listing!
+Listing 7281931889 already exists, update existing listing!
+Listing 7281928030 already exists, update existing listing!
+Listing 7281924490 already exists, update existing listing!
+Listing 7281928561 already exists, update existing listing!
+Listing 7281924286 already exists, update existing listing!
+Listing 7281927433 already exists, update existing listing!
+Listing 7281922726 already exists, update existing listing!
+Listing 7281929371 already exists, update existing listing!
+Listing 7281927433 already exists, update existing listing!
+Listing 7281922726 already exists, update existing listing!
+Listing 7281929371 already exists, update existing listing!
+Listing 7281928517 already exists, update existing listing!
+Listing 7281928299 already exists, update existing listing!
+Listing 7281920785 already exists, update existing listing!
+Listing 7281927720 already exists, update existing listing!
+Listing 7281921826 already exists, update existing listing!
+Listing 7281920663 already exists, update existing listing!
+Listing 7281927469 already exists, update existing listing!
+Listing 7281927142 already exists, update existing listing!
+Listing 7281926978 already exists, update existing listing!
+Insert new listing! 
+Listing 7281926881 already exists, update existing listing!
+Listing 7281926772 already exists, update existing listing!
+Listing 7281926679 already exists, update existing listing!
+Listing 7279812860 already exists, update existing listing!
+Listing 7281926207 already exists, update existing listing!
+Listing 7280861747 already exists, update existing listing!
+Listing 7281921722 already exists, update existing listing!
+Listing 7281926064 already exists, update existing listing!
+Listing 7281925985 already exists, update existing listing!
+Listing 7280245765 already exists, update existing listing!
+Listing 7281925835 already exists, update existing listing!
+Listing 7267643147 already exists, update existing listing!
+Listing 7277204080 already exists, update existing listing!
+Listing 7281921617 already exists, update existing listing!
+Listing 7281921380 already exists, update existing listing!
+Listing 7281925420 already exists, update existing listing!
+Listing 7278493780 already exists, update existing listing!
+Listing 7278494609 already exists, update existing listing!
+Listing 7281923025 already exists, update existing listing!
+Listing 7278434138 already exists, update existing listing!
+Listing 7281925267 already exists, update existing listing!
+Listing 7281920753 already exists, update existing listing!
+Listing 7281921496 already exists, update existing listing!
+Listing 7281924799 already exists, update existing listing!
+Listing 7278924622 already exists, update existing listing!
+Listing 7281924283 already exists, update existing listing!
+Listing 7281924063 already exists, update existing listing!
+Listing 7281916812 already exists, update existing listing!
+Listing 7281921423 already exists, update existing listing!
+Listing 7281923851 already exists, update existing listing!
+Listing 7281920803 already exists, update existing listing!
+Listing 7281923763 already exists, update existing listing!
+Listing 7278935513 already exists, update existing listing!
+Listing 7281892636 already exists, update existing listing!
+Listing 7281897259 already exists, update existing listing!
+Listing 7281902881 already exists, update existing listing!
+Listing 7281922439 already exists, update existing listing!
+Listing 7281921982 already exists, update existing listing!
+Listing 7281921858 already exists, update existing listing!
+Listing 7281920757 already exists, update existing listing!
+Listing 7279920082 already exists, update existing listing!
+Insert new listing! 
+Listing 7281919690 already exists, update existing listing!
+Listing 7281873551 already exists, update existing listing!
+Listing 7280835641 already exists, update existing listing!
+Listing 7281916264 already exists, update existing listing!
+Listing 7281919338 already exists, update existing listing!
+Listing 7279004192 already exists, update existing listing!
+Listing 7281914800 already exists, update existing listing!
+Listing 7281906348 already exists, update existing listing!
+Listing 7281917548 already exists, update existing listing!
+Listing 7281917176 already exists, update existing listing!
+Listing 7281912742 already exists, update existing listing!
+Listing 7281916490 already exists, update existing listing!
+Listing 7281916068 already exists, update existing listing!
+Listing 7281869913 already exists, update existing listing!
+Listing 7281915074 already exists, update existing listing!
+Listing 7281914839 already exists, update existing listing!
+Listing 7281914216 already exists, update existing listing!
+Listing 7280844507 already exists, update existing listing!
+Listing 7281910256 already exists, update existing listing!
+Insert new listing! 
+Listing 7281912204 already exists, update existing listing!
+Listing 7281911928 already exists, update existing listing!
+Listing 7281907065 already exists, update existing listing!
+Insert new listing! 
+Listing 7280870613 already exists, update existing listing!
+Listing 7281910741 already exists, update existing listing!
+Listing 7281883173 already exists, update existing listing!
+Listing 7280159303 already exists, update existing listing!
+Listing 7281910207 already exists, update existing listing!
+Listing 7281910153 already exists, update existing listing!
+Listing 7281895207 already exists, update existing listing!
+Listing 7281909946 already exists, update existing listing!
+Listing 7281909542 already exists, update existing listing!
+Listing 7279431543 already exists, update existing listing!
+Listing 7281908584 already exists, update existing listing!
+Listing 7281908494 already exists, update existing listing!
+Listing 7281904377 already exists, update existing listing!
+Listing 7281908408 already exists, update existing listing!
+Listing 7281908061 already exists, update existing listing!
+Listing 7281907973 already exists, update existing listing!
+Listing 7281907677 already exists, update existing listing!
+Listing 7276592354 already exists, update existing listing!
+Listing 7271150259 already exists, update existing listing!
+Listing 7281901769 already exists, update existing listing!
+Listing 7281883024 already exists, update existing listing!
+Insert new listing! 
+Listing 7281895871 already exists, update existing listing!
+Listing 7277990656 already exists, update existing listing!
+Listing 7281897038 already exists, update existing listing!
+Listing 7281904850 already exists, update existing listing!
+Listing 7281904749 already exists, update existing listing!
+Listing 7281904577 already exists, update existing listing!
+Listing 7281904303 already exists, update existing listing!
+'NoneType' object has no attribute 'text'
+'NoneType' object has no attribute 'text'
+Listing 7281903586 already exists, update existing listing!
+Listing 7281903389 already exists, update existing listing!
+Listing 7281903192 already exists, update existing listing!
+Listing 7278510361 already exists, update existing listing!
+Listing 7281902903 already exists, update existing listing!
+Listing 7281902544 already exists, update existing listing!
+Listing 7281902396 already exists, update existing listing!
+'NoneType' object has no attribute 'text'
+Listing 7281901463 already exists, update existing listing!
+Listing 7281901967 already exists, update existing listing!
+Listing 7281927433 already exists, update existing listing!
+Listing 7281922726 already exists, update existing listing!
+Listing 7281929371 already exists, update existing listing!
+Listing 7281928517 already exists, update existing listing!
+Listing 7281928299 already exists, update existing listing!
+Listing 7281920785 already exists, update existing listing!
+Listing 7281927720 already exists, update existing listing!
+Listing 7281921826 already exists, update existing listing!
+Listing 7281920663 already exists, update existing listing!
+Listing 7281927469 already exists, update existing listing!
+Listing 7281927142 already exists, update existing listing!
+Listing 7281926978 already exists, update existing listing!
+Listing 7271558744 already exists, update existing listing!
+Listing 7281926881 already exists, update existing listing!
+Listing 7281926772 already exists, update existing listing!
+Listing 7281926679 already exists, update existing listing!
+Listing 7279812860 already exists, update existing listing!
+Listing 7281926207 already exists, update existing listing!
+Listing 7280861747 already exists, update existing listing!
+Listing 7281921722 already exists, update existing listing!
+Listing 7281926064 already exists, update existing listing!
+Listing 7281925985 already exists, update existing listing!
+Listing 7280245765 already exists, update existing listing!
+Listing 7281925835 already exists, update existing listing!
+Listing 7267643147 already exists, update existing listing!
+Listing 7277204080 already exists, update existing listing!
+Listing 7281921617 already exists, update existing listing!
+Listing 7281921380 already exists, update existing listing!
+Listing 7281925420 already exists, update existing listing!
+Listing 7278493780 already exists, update existing listing!
+Listing 7278494609 already exists, update existing listing!
+Listing 7281923025 already exists, update existing listing!
+Listing 7278434138 already exists, update existing listing!
+Listing 7281925267 already exists, update existing listing!
+Listing 7281920753 already exists, update existing listing!
+Listing 7281921496 already exists, update existing listing!
+Listing 7281924799 already exists, update existing listing!
+Listing 7278924622 already exists, update existing listing!
+Listing 7281924283 already exists, update existing listing!
+Listing 7281924063 already exists, update existing listing!
+Listing 7281916812 already exists, update existing listing!
+Listing 7281921423 already exists, update existing listing!
+Listing 7281923851 already exists, update existing listing!
+Listing 7281920803 already exists, update existing listing!
+Listing 7281923763 already exists, update existing listing!
+Listing 7278935513 already exists, update existing listing!
+Listing 7281892636 already exists, update existing listing!
+Listing 7281897259 already exists, update existing listing!
+Listing 7281902881 already exists, update existing listing!
+Listing 7281922439 already exists, update existing listing!
+Listing 7281921982 already exists, update existing listing!
+Listing 7281921858 already exists, update existing listing!
+Listing 7281920757 already exists, update existing listing!
+Listing 7279920082 already exists, update existing listing!
+Listing 7281919811 already exists, update existing listing!
+Listing 7281919690 already exists, update existing listing!
+Listing 7281873551 already exists, update existing listing!
+Listing 7280835641 already exists, update existing listing!
+Listing 7281916264 already exists, update existing listing!
+Listing 7281919338 already exists, update existing listing!
+Listing 7279004192 already exists, update existing listing!
+Listing 7281914800 already exists, update existing listing!
+Listing 7281906348 already exists, update existing listing!
+Listing 7281917548 already exists, update existing listing!
+Listing 7281917176 already exists, update existing listing!
+Listing 7281912742 already exists, update existing listing!
+Listing 7281916490 already exists, update existing listing!
+Listing 7281916068 already exists, update existing listing!
+Listing 7281869913 already exists, update existing listing!
+Listing 7281915074 already exists, update existing listing!
+Listing 7281914839 already exists, update existing listing!
+Listing 7281914216 already exists, update existing listing!
+Listing 7280844507 already exists, update existing listing!
+Listing 7281910256 already exists, update existing listing!
+Listing 7281913432 already exists, update existing listing!
+Listing 7281912204 already exists, update existing listing!
+Listing 7281911928 already exists, update existing listing!
+Listing 7281907065 already exists, update existing listing!
+Listing 7281883204 already exists, update existing listing!
+Listing 7280870613 already exists, update existing listing!
+Listing 7281910741 already exists, update existing listing!
+Listing 7281883173 already exists, update existing listing!
+Listing 7280159303 already exists, update existing listing!
+Listing 7281910207 already exists, update existing listing!
+Listing 7281910153 already exists, update existing listing!
+Listing 7281895207 already exists, update existing listing!
+Listing 7281909946 already exists, update existing listing!
+Listing 7281909542 already exists, update existing listing!
+Listing 7279431543 already exists, update existing listing!
+Listing 7281908584 already exists, update existing listing!
+Listing 7281908494 already exists, update existing listing!
+Listing 7281904377 already exists, update existing listing!
+Listing 7281908408 already exists, update existing listing!
+Listing 7281908061 already exists, update existing listing!
+Listing 7281907973 already exists, update existing listing!
+Listing 7281907677 already exists, update existing listing!
+Listing 7276592354 already exists, update existing listing!
+Listing 7271150259 already exists, update existing listing!
+Listing 7281901769 already exists, update existing listing!
+Listing 7281883024 already exists, update existing listing!
+Listing 7281900452 already exists, update existing listing!
+Listing 7281895871 already exists, update existing listing!
+Listing 7277990656 already exists, update existing listing!
+Listing 7281897038 already exists, update existing listing!
+Listing 7281904850 already exists, update existing listing!
+Listing 7281904749 already exists, update existing listing!
+Listing 7281904577 already exists, update existing listing!
+Listing 7281904303 already exists, update existing listing!
+'NoneType' object has no attribute 'text'
+'NoneType' object has no attribute 'text'
+Listing 7281903586 already exists, update existing listing!
+Listing 7281903389 already exists, update existing listing!
+Listing 7281903192 already exists, update existing listing!
+Listing 7278510361 already exists, update existing listing!
+Listing 7281902903 already exists, update existing listing!
+Listing 7281902544 already exists, update existing listing!
+Listing 7281902396 already exists, update existing listing!
+'NoneType' object has no attribute 'text'
+Listing 7281901463 already exists, update existing listing!
+Listing 7281901967 already exists, update existing listing!
+Listing 7281927433 already exists, update existing listing!
+Listing 7281922726 already exists, update existing listing!
+Listing 7281929371 already exists, update existing listing!
+Listing 7281928517 already exists, update existing listing!
+Listing 7281928299 already exists, update existing listing!
+Listing 7281920785 already exists, update existing listing!
+Listing 7281927720 already exists, update existing listing!
+Listing 7281921826 already exists, update existing listing!
+Listing 7281920663 already exists, update existing listing!
+Listing 7281927469 already exists, update existing listing!
+Listing 7281927142 already exists, update existing listing!
+Listing 7281926978 already exists, update existing listing!
+Listing 7271558744 already exists, update existing listing!
+Listing 7281926881 already exists, update existing listing!
+Listing 7281926772 already exists, update existing listing!
+Listing 7281926679 already exists, update existing listing!
+Listing 7279812860 already exists, update existing listing!
+Listing 7281926207 already exists, update existing listing!
+Listing 7280861747 already exists, update existing listing!
+Listing 7281921722 already exists, update existing listing!
+Listing 7281926064 already exists, update existing listing!
+Listing 7281925985 already exists, update existing listing!
+Listing 7280245765 already exists, update existing listing!
+Listing 7281925835 already exists, update existing listing!
+Listing 7267643147 already exists, update existing listing!
+Listing 7277204080 already exists, update existing listing!
+Listing 7281921617 already exists, update existing listing!
+Listing 7281921380 already exists, update existing listing!
+Listing 7281925420 already exists, update existing listing!
+Listing 7278493780 already exists, update existing listing!
+Listing 7278494609 already exists, update existing listing!
+Listing 7281923025 already exists, update existing listing!
+Listing 7278434138 already exists, update existing listing!
+Listing 7281925267 already exists, update existing listing!
+Listing 7281920753 already exists, update existing listing!
+Listing 7281921496 already exists, update existing listing!
+Listing 7281924799 already exists, update existing listing!
+Listing 7278924622 already exists, update existing listing!
+Listing 7281924283 already exists, update existing listing!
+Listing 7281924063 already exists, update existing listing!
+Listing 7281916812 already exists, update existing listing!
+Listing 7281921423 already exists, update existing listing!
+Listing 7281923851 already exists, update existing listing!
+Listing 7281920803 already exists, update existing listing!
+Listing 7281923763 already exists, update existing listing!
+Listing 7278935513 already exists, update existing listing!
+Listing 7281892636 already exists, update existing listing!
+Listing 7281897259 already exists, update existing listing!
+Listing 7281902881 already exists, update existing listing!
+Listing 7281922439 already exists, update existing listing!
+Listing 7281921982 already exists, update existing listing!
+Listing 7281921858 already exists, update existing listing!
+Listing 7281920757 already exists, update existing listing!
