@@ -123,6 +123,8 @@ class Parser:
             # results are returned as an iterable list                   
             attrgroups = cl_result_details.find_all('p', class_='attrgroup')
             
+            # @TODO strip() all the strings
+
             # Update fields from attribute group
             for attrgroup in attrgroups:
                 listing_attributes = []
