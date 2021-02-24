@@ -1,4 +1,5 @@
-# MAIN SCRIPT TO RUN THE ETL FOR THE CRAIGSLIST PROPERTY RENTALs
+from splinter import Browser
+from webdriver_manager.chrome import ChromeDriverManager
 
 import config
 import cl_parser
@@ -11,16 +12,12 @@ print('#' * 40)
 my_parser = cl_parser.Parser() 
 
 # URLs to scrape
-# @TODO Make the urls more friendly. Be able to gather all urls in config based on attribute name template
 urls = []
-urls.append(config.url_listings_northsd)
-urls.append(config.url_listings_eastsd)
+#urls.append(config.url_listings_northsd)
+#urls.append(config.url_listings_eastsd)
 urls.append(config.url_lisings_cityofsd)
 urls.append(config.url_lisings_southsd)
 
-# Scrape the pages and put data in to database
+# Scrape the pages
 my_parser.scrape_cl(urls)
 my_parser.update_details()
-
-# Call for visualization and analysis
-# @TODO Add logic to run visualization and analysis
