@@ -17,7 +17,8 @@ debug=True
 test=True
 
 # URLs to scrape
-url="https://sandiego.craigslist.org/d/apartments-housing-for-rent/search/apa"
+# This URL is for the entire county
+url="https://sandiego.craigslist.org/search/apa?housing_type=1"
 
 url_listings_northsd = "https://sandiego.craigslist.org/search/nsd/apa"
 url_listings_eastsd = "https://sandiego.craigslist.org/search/esd/apa"
