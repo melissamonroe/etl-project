@@ -37,7 +37,7 @@ Things we will also try to determine from the listing:
 - - Washer/Dryer in unit?
 
 ## Running the ETL
-There are several ways to run the ETL for Craogslist.
+There are several ways to run the ETL for Craigslist.
 1.	To have an interactive experience it can be run from a [Jupyter Notebook](./src/rental_scrape.ipynb)
 2. Run from a .bat or .sh file for automation on both windows and *nix 
 environments [craigslist_etl.bat](../src/craigslist_etl.bat) and [craigslist_etl.sh](../src/craigslist_etl.sh)
