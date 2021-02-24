@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------
+# MBM
+--------------------------------------------------------------*/
+
+.viz img {
+  max-width: 100%;
+  margin: 0px 0px 12px 0px;  
+}
+.viz h4 {
+  text-align: center;
+}
+
+.viz-image {
+  margin:0 auto; 
+  width:100%;
+  padding-bottom: 24px;
+}
+.viz-active {  
+  outline: #007bff solid;
+}
+.section-top {
+  padding:24px 0px;
+
+}
+.viz-summary-small {
+  display: none;
+}
+@media(max-width:900px)
+{
+  .viz-summary {
+    display: none;
+  }
+  .viz-summary-small {
+    display: inline-block;
+    margin: 10px 0px;
+  }
+    .viz-summary-small img {
+      max-width: 49%;
+    }
+
+}
+@media (max-width: 500px)
+{
+  .viz-container h2 {
+    font-size: 1.5em;
+  }
+
+}
