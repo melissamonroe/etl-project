@@ -66,7 +66,7 @@ class Parser:
             'listing_title': listing_title,
             'listing_price': listing_price,
             'listing_url': listing_url,
-            'listing_date': listing_datetime            
+            'listing_datetime': listing_datetime            
         }
 
         # Insert only if the data_id does not exist in the database
