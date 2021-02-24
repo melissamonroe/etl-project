@@ -135,5 +135,3 @@ dmypy.json
 .vscode/settings.json
 src/log.txt
 resources/scripts/log.txt
-src/cl_rental_scrape_bsg.ipynb
-src/cl_rental_scrape_bsg.ipynb
