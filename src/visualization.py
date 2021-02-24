@@ -27,7 +27,18 @@ class Visualizer:
         self.listings_collection = db.listings
 
     def get_raw_data(self):
-        cursor = self.listings_collection.find({},{ 'data_id': 1, 'listing_title': 1, 'listing_bedbath': 1,'listing_bed': 1,'listing_bath': 1,'listing_price': 1, 'listing_addrzip': 1,'listing_latitude': 1, 'listing_longitude': 1, 'listing_sqft': 1, '_id': 0 })   
+        cursor = self.listings_collection.find({},{ 'data_id': 1, 
+                            'listing_title': 1, 
+                            'listing_bedbath': 1,
+                            'listing_bed': 1,
+                            'listing_bath': 1,
+                            'listing_price': 1, 
+                            'listing_addrzip': 1,
+                            'listing_addrlocality': 1,
+                            'listing_latitude': 1, 
+                            'listing_longitude': 1, 
+                            'listing_sqft': 1, 
+                            '_id': 0 })   
         df = pd.DataFrame(list(cursor))
         return df
 
