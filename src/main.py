@@ -1,9 +1,9 @@
-# MAIN SCRIPT TO RUN THE ETL FOR THE CRAIGSLIST PROPERTY RENTALsimport config
+# MAIN SCRIPT TO RUN THE ETL FOR THE CRAIGSLIST PROPERTY RENTALS
 import config
 import cl_parser
 
 print('#' * 40)
-print('Running Craigslist appartment ETL')
+print('Running Craigslist Rental ETL')
 print('#' * 40)
 
 # Create the craiglist parser
