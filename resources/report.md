@@ -1,4 +1,4 @@
-# Final Report
+# Final Report 
 
 ## Project design and development
 We wanted to create an ETL project that can be accessed both via an interactive tool as well as an automated tool to gather data at scheduled times. For this the design consisted of 5 core files and the database. 
