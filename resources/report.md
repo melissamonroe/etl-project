@@ -22,7 +22,7 @@
 
 Total number of list prices analyzed: 6596
 
-Average listing price accross all zip codes: $2171.0
+Average listing price across all zip codes: $2171.0
 
 Highest list price all zip codes $30000
 
@@ -38,7 +38,7 @@ Lowest list price all zip codes $475
 
 Total number of list prices in 92033 (Encinitas): 443
 
-Average listing price accross 92033 (Encinitas): $1824.0
+Average listing price across 92033 (Encinitas): $1824.0
 
 Highest list price in 92033 (Encinitas) $15000
 
