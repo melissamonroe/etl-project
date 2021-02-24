@@ -11,7 +11,7 @@ Search sandiego.craigslist.org for apartment listings.  Craigslist San Diego all
 
 #Process
 
-We used MongoDB and Python.  We chose Mongo because we were unsure how structured CL postings were.  It turns out SQL would have worked, because when you create a CL ad, many of the fields are constrained by pop-ups.  
+We used MongoDB and Python.  We chose Mongo because we were unsure how structured CL postings were, however, it turns out SQL would have worked, because when you create a CL ad, many of the fields are constrained by pop-ups.  
 ![CL Posting](resources/images/cl_create_posting.png)
 
 `cl_parsery.py` is used to set up the database and holds all the functions used to scrape the site, clean up the data, and insert results into the database.
@@ -24,7 +24,9 @@ Listings were not added to the database if they did not include all of the follo
 - Listing Creation datetime
 - Data ID (the number at the end of the Listing URL)
 
-If a listing had all of the above items, we then extracted the following items
+When run this morning (2/24) it took 73 minutes and we went from 7608 to 8635 valid records.
+
+If a listing had all of the above items, we then extracted the detail items:
 
 - listing_latitude
 - listing_longitude    
@@ -44,4 +46,33 @@ If a listing had all of the above items, we then extracted the following items
 - listing_smokingallowed
 
 We cleaned up the data before inserting it in Mongo - removing the $ and thousands separator from the price and "ft2" so that those results could be used as numbers instead of strings. We also made assumptions regarding bed/bathrooms if no number was provided.  A blank bedroom = studio apartment, blank bathroom = 1/2 bath
+
+##Results
+At the time of writing this report, the most popular types of apartments were (unsurprisingly) 1br/1ba and 2br/2ba with 3437 and 1951 units respectively. 
+
+| Bed/Bath | Count|
+| :--- | ---:|
+| 1BR / 1Ba | 3437 |
+| 2BR / 2Ba | 1951 |
+| 2BR / 1Ba | 965 |
+| 0BR / 1Ba | 589 |
+| 3BR / 2Ba | 415 |
+| 2BR / 1.5Ba | 117 |
+| 2BR / 2.5Ba | 91 |
+
+###Average Rental Price by Zip Code
+
+![AVG Rental by Zip](resources/images/Average_rentalprice_all _zip.png)
+
+92091 is Rancho Santa Fe, and at that price and location is more than likely to be a house miscategorized as an apartment.
+
+92155 is Coronado.
+
+67340 is in rural southern Kansas, and must be a typo.
+
+91987 is in Tecate (Far East San Diego County near the border).
+
+###20 Highest Average Listing Price
+
+![AVG Rental by Zip chart](resources/images/fig01_top20averageprice.png)
 
