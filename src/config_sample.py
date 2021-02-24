@@ -26,3 +26,10 @@ url_lisings_southsd = "https://sandiego.craigslist.org/search/ssd/apa"
 
 #  How many pages to scrape for each URL
 url_page_range=2
+
+#colors
+greenblue = '#097392'
+lightgreen = '#83B4B3'
+lightyellow = '#FFF0CE'
+orangered = '#D55534'
+dark = '#383838'
