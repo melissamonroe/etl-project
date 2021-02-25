@@ -34,3 +34,9 @@ lightgreen = '#83B4B3'
 lightyellow = '#FFF0CE'
 orangered = '#D55534'
 dark = '#383838'
+
+# Outlier cutoffs
+low_sqft=50
+low_price=300
+high_sqft=199900
+high_price=9999999
