@@ -23,7 +23,7 @@ class Parser:
         conn = config.mongo_conn
         client = pymongo.MongoClient(conn)
 
-        # @TODO Make sure database is connected
+        client.server_info() # Will throw an exception if DB is not connected. @TODO Add better handling of this
 
         # Define database and collection
         db = client[config.db_name]
@@ -33,11 +33,15 @@ class Parser:
         # URL of page to be scraped
         url = listing_url
 
+        # Sleep for a bit
         sleep(random.randint(1,3))
+
         # Retrieve page with the requests module
         response = requests.get(url)
+
         # Create BeautifulSoup object; parse with 'lxml'
-        soup = BeautifulSoup(response.text,'lxml')    
+        soup = BeautifulSoup(response.text,'lxml') 
+
         return soup
 
     def insert_listing(self,result):
@@ -141,6 +145,7 @@ class Parser:
 
 
             soup_scripts = cl_result_details.find_all('script',id='ld_posting_data')
+
             # Getting dictionary
             scripts_dict = json.loads(soup_scripts[0].contents[0].strip())
 
@@ -199,6 +204,7 @@ class Parser:
                 print(listing_smokingallowed)
                 print('------------------------------')
 
+            # Update the database
             doc = self.listings_collection.find_one_and_update(
                 {'data_id' : data_id},
                 {'$set':
