@@ -33,7 +33,11 @@ Things we will also try to determine from the listing:
 
 - Average Listing Price by Zip
 - Zip codes with highest availability (units/zip)
-- 
+- Unit type availability (bedroom/bathroom combos)
+
+We ended up sorting everything by zip codes. Late in the process we learned that there are 2 types of zip codes.  Area and point.  Most of us are familiar with area type codes that cover neighborhoods.  Point Zip codes are strictly PO Boxes, located at a Post Office.
+
+--
 
 #Process
 
@@ -112,15 +116,10 @@ The data was loaded into the database as the following object. This data is not 
 ```
 
 
-## Analysis
-- Amenities
-- Determine average rental price by location
+
+##Analysis/Results
 
 
-![File Name](resources/images/fig1_example.png)
-
-
-##Results
 At the time of writing this report, the most popular types of apartments were (unsurprisingly) **1br/1ba** and **2br/2ba** with **3437** and **1951** units respectively. 
 
 | Bed/Bath | Count|
