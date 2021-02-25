@@ -11,11 +11,12 @@ from matplotlib import pyplot as plt
 
 import config
 
+# @TODO Break the Visualizer class into separate classes. One that only handles the data
+# and a second that only builds the plots or graphs.
 class Visualizer:
         
     # init method or constructor
     def __init__(self):
-        self.name = config.pg_username
         self.listings_collection = None
 
         conn = config.mongo_conn
@@ -84,7 +85,9 @@ class Visualizer:
         for data_id in df.loc[df['listing_price'] > config.high_price]['data_id']:
             df.drop(df.index[df['data_id'] == data_id], inplace = True)
 
-        # Drop any duplicates
+        # Drop any duplicates. Dups can happen when a listing is duplicated by the user
+        # in order to get their listing on the first page. They will have the same data 
+        # except for the data_id 
         df.drop_duplicates(subset=[ 'listing_title',
                                     'listing_bedbath',
                                     'listing_price',
@@ -102,6 +105,7 @@ class Visualizer:
     def create_visuals(self):
         # Generate the visualizations useful for the project
         self.create_top20()
+        # @TODO Add additional visual creation
 
     def get_summary_stats(self):
         grouped_zip_df = self.get_raw_data().groupby(["listing_addrzip"])
@@ -154,13 +158,6 @@ class Visualizer:
 
         plt.bar(x_axis,mean_highprices, facecolor="#097392", alpha=0.75, align="center")
         plt.xticks(tick_locations, locations_highprices, rotation=90)
-        plt.savefig("../resources/images/fig01_top20averageprice.png")
+        # @TODO Move the file name out. Is depemdent on where it is run from. 
+        plt.savefig("../images/fig01_top20averageprice.png")
         
-""" 
-# FOR TESTING
-visuals = Visualizer()
-base_df = visuals.get_clean_data()
-#print(base_df.head(5))
-
-base_df = base_df.sort_values(by=['listing_price'], ascending=True).head(5)
-print(base_df.head(5)) """
