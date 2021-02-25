@@ -42,7 +42,9 @@ We used MongoDB and Python.  We chose Mongo because we were unsure how structure
 
 `cl_parsery.py` is used to set up the database and holds all the functions used to scrape the site, clean up the data, and insert results into the database.
 
+Below is a wire diagram of the different moving parts.
 
+![ETL Wire Diagram](resources/images/etl-design.png)
 
 Listings were not added to the database if they did not include all of the following:
 
