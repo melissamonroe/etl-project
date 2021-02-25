@@ -1,5 +1,6 @@
 # ETL-Project
 ## UCSD Data Bootcamp ETL Group Project
+### Team (scraping) Bottom of the Barrel
 Ben Galde<br>
 Melissa Monroe<br>
 Tanlin Hung<br>
@@ -30,11 +31,9 @@ Items we should be able to get from each posting:
 
 Things we will also try to determine from the listing:
 
-- Reserved Parking
-- Pet Friendly (if possible determine either dog/cat or both)
-- Smoking/nonsmoking
-- Amenities
-- Washer/Dryer in unit?
+- Average Listing Price by Zip
+- Zip codes with highest availability (units/zip)
+- 
 
 #Process
 
@@ -42,6 +41,8 @@ We used MongoDB and Python.  We chose Mongo because we were unsure how structure
 ![CL Posting](resources/images/cl_create_posting.png)
 
 `cl_parsery.py` is used to set up the database and holds all the functions used to scrape the site, clean up the data, and insert results into the database.
+
+
 
 Listings were not added to the database if they did not include all of the following:
 
@@ -77,7 +78,7 @@ We cleaned up the data before inserting it in Mongo - removing the $ and thousan
 ## Running the ETL
 There are several ways to run the ETL for Craigslist.
 
-1.	To have an interactive experience it can be run from a [Jupyter Notebook](./src/cl_rental_scrape.ipynb)
+1.	For an interactive experience it can be run from a [Jupyter Notebook](./src/cl_rental_scrape.ipynb)
 2. Run from a .bat or .sh file for automation on both windows and *nix 
 environments [craigslist_etl.bat](./resources/scripts/craigslist_etl.bat) and [craigslist_etl.sh](./resources/scripts/craigslist_etl.sh)
 
@@ -86,7 +87,7 @@ environments [craigslist_etl.bat](./resources/scripts/craigslist_etl.bat) and [c
 The pages for the San Diego apartment rentals are located here: [sandiego.craisglist.org/search/apa](https://sandiego.craigslist.org/search/apa)
 ### Zip code data
 The primary zip code data is from [federalgovernmentzipcodes.us/](http://federalgovernmentzipcodes.us/). We renamed the file to [zipc_codes.csv](./resources/data/zipcodes.csv). 
-The data was loaded into the database as the following objects. This data is not used directly in the project as of yet and may be replaced in the future.
+The data was loaded into the database as the following object. This data is not used directly in the project as of yet and may be replaced in the future.
 
 ```json
 [
@@ -152,11 +153,11 @@ At the time of writing this report, the most popular types of apartments were (u
 
 ###Top 10 Zip Code Listing count
 
-![AVG Rental by Zip chart](resources/images/plot_most_listing_by_zip.png)
+![units/zip](resources/images/plot_most_listing_by_zip.png)
 
 In order from left to right:
 
-- Escondido
+- PO Box zip code in Escondido
 - UTC
 - 3x2 block area of downtown between A and C Streets, and Front and Third Aves, (SD city offices, Golden Hall etc, presumably a PO Box for city administered rental properties since there are no residential units in these blocks)
 - PO Box zip code in Vista
@@ -167,7 +168,14 @@ In order from left to right:
 - East Carlsbad/Oceanside
 - PO Box zip code in La Mesa
 
-# Leveraging our Results
+It turns out there are zip codes that are strictly PO boxes at the Post Office (points, not areas)
+
+###Price per Sq Foot by Zip
+
+![price/square foot](resources/images/price_per_sqft_zoom.png)
+
+
+## Leveraging our Results
 
 In the future we expect to be able to integrate the results into a webpage that is automatically updated once a day.  Below is a screenshot of the placeholder. The live site can be found at [github.io] (https://bgalde-dev.github.io/etl-project/index.html)
 
