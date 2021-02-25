@@ -16,7 +16,14 @@ debug=True
 # before scraping website.
 test=True
 
+# For the main file to run either or both the parser and the visuals
+run_parser=True
+run_visuals=True
+
 # URLs to scrape
+# @TODO Make a template variable name to pick up all url variables via refection. 
+# or just create the list of urls here.
+
 # This URL is for the entire county
 url="https://sandiego.craigslist.org/search/apa?housing_type=1"
 
@@ -28,7 +35,7 @@ url_lisings_southsd = "https://sandiego.craigslist.org/search/ssd/apa"
 #  How many pages to scrape for each URL
 url_page_range=2
 
-#colors
+# Colors
 greenblue = '#097392'
 lightgreen = '#83B4B3'
 lightyellow = '#FFF0CE'
