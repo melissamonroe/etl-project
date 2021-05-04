@@ -178,6 +178,6 @@ It turns out there are zip codes that are strictly PO boxes at the Post Office (
 
 ## Leveraging our Results
 
-In the future we expect to be able to integrate the results into a webpage that is automatically updated once a day.  Below is a screenshot of the placeholder. The live site can be found at [github.io] (https://github.com/melissamonroe/web-scrape-craigslist-etl)
+In the future we expect to be able to integrate the results into a webpage that is automatically updated once a day.  Below is a screenshot of the placeholder. The live site can be found at [github.io] (https://melissamonroe.github.io/web-scrape-craigslist-etl)
 
 ![Barebones website](resources/images/Craigslist_Apartments_for_Rent_Dashboard.png)
