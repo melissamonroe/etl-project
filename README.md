@@ -12,7 +12,7 @@ This group project will use [Craigslist](https://sandiego.craigslist.org/search/
 
 The average rental price by location (TBD whether zip code or descriptors like "UTC" or "North Park")
 
-At a minimum we will match up 1 bed/1 bath with other 1/1's and 2 bed/2 baths with other 2/2's to avoid invalid comparisions.  Other combinations may be included depending on time.
+At a minimum we will match up 1 bed/1 bath with other 1/1's and 2 bed/2 baths with other 2/2's to avoid invalid comparisons.  Other combinations may be included depending on time.
 
 Data will be stored in a MongoDB.
 
@@ -89,7 +89,7 @@ There are several ways to run the ETL for Craigslist.
 environments [craigslist_etl.bat](./resources/scripts/craigslist_etl.bat) and [craigslist_etl.sh](./resources/scripts/craigslist_etl.sh)
 
 ## Data Sources
-### Scraping Craigslist appartment and house rental pages
+### Scraping Craigslist apartment and house rental pages
 The pages for the San Diego apartment rentals are located here: [sandiego.craisglist.org/search/apa](https://sandiego.craigslist.org/search/apa)
 ### Zip code data
 The primary zip code data is from [federalgovernmentzipcodes.us/](http://federalgovernmentzipcodes.us/). We renamed the file to [zipc_codes.csv](./resources/data/zipcodes.csv). 
@@ -178,6 +178,6 @@ It turns out there are zip codes that are strictly PO boxes at the Post Office (
 
 ## Leveraging our Results
 
-In the future we expect to be able to integrate the results into a webpage that is automatically updated once a day.  Below is a screenshot of the placeholder. The live site can be found at [github.io] (https://github.com/melissamonroe/etl-project)
+In the future we expect to be able to integrate the results into a webpage that is automatically updated once a day.  Below is a screenshot of the placeholder. The live site can be found at [github.io] (https://github.com/melissamonroe/web-scrape-craigslist-etl)
 
 ![Barebones website](resources/images/Craigslist_Apartments_for_Rent_Dashboard.png)
